@@ -10,16 +10,16 @@
 
 		                    	<div class="wizard-header">
 		                        	<h3 class="wizard-title">
-		                        		List Your Place
+		                        		Live
 		                        	</h3>
-									<h5>This information will let us know more about your place.</h5>
+									<h5>Los partidos que se estan transmitiendo en vivo</h5>
 		                    	</div>
 								<div class="wizard-navigation">
 									<ul>
-			                            <li><a href="#location" data-toggle="tab">Location</a></li>
-			                            <li><a href="#type" data-toggle="tab">Type</a></li>
-			                            <li><a href="#facilities" data-toggle="tab">Facilities</a></li>
-			                            <li><a href="#description" data-toggle="tab">Description</a></li>
+			                            <li><a href="#location" data-toggle="tab">Todos</a></li>
+			                            <li><a href="#type" data-toggle="tab">Dota 2</a></li>
+			                            <li><a href="#facilities" data-toggle="tab">league of legend</a></li>
+			                            <li><a href="#description" data-toggle="tab">Futbol</a></li>
 			                        </ul>
 								</div>
 
@@ -27,7 +27,7 @@
 		                            <div class="tab-pane" id="location">
 		                            	<div class="row">
 		                                	<div class="col-sm-12">
-		                                    	<h4 class="info-text"> Let's start with the basic details</h4>
+		                                    	<h4 class="info-text"> aun no esta listo</h4>
 		                                	</div>
 		                                	<div class="col-sm-5 col-sm-offset-1">
 		                                    	
@@ -44,7 +44,7 @@
 		                            	</div>
 		                            </div>
 		                            <div class="tab-pane" id="type">
-		                                <h4 class="info-text">What type of location do you have? </h4>
+		                                <h4 class="info-text">aun no esta listo dota 2 </h4>
 		                                <div class="row">
 		                                    <div class="col-sm-10 col-sm-offset-1">
 		                                        <div class="col-sm-4 col-sm-offset-2">
@@ -57,7 +57,7 @@
 		                                </div>
 		                            </div>
 		                            <div class="tab-pane" id="facilities">
-		                                <h4 class="info-text">Tell us more about facilities. </h4>
+		                                <h4 class="info-text">aun no esta listo lol </h4>
 		                                <div class="row">
 		                                    <div class="col-sm-5 col-sm-offset-1">
 		                                      
@@ -75,7 +75,7 @@
 		                            </div>
 		                            <div class="tab-pane" id="description">
 		                                <div class="row">
-		                                    <h4 class="info-text"> Drop us a small description. </h4>
+		                                    <h4 class="info-text"> aun no esta listo futbol </h4>
 		                                    <div class="col-sm-6 col-sm-offset-1">
 		                                        
 		                                    </div>
