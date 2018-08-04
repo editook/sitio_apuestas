@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html en="es">
   <head>
     <meta charset="utf-8">
     <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('img/favicon.ico') }}"/>
@@ -7,39 +7,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>Bets</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <link href="{{ asset('csss/bootstrap.css')}}" rel="stylesheet" />
-    <link href='https://fonts.googleapis.com/css?family=Cambo|Poppins:400,600' rel='stylesheet' type='text/css'>
-    <!--link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet"-->
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
-       
-    <link rel="stylesheet"  href="{{ asset('csss/fonts/pe-icon-7-stroke.css') }}"/>
-
-    <link rel="stylesheet" href="{{ asset('csss/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('csss/gsdk-bootstrap-wizard.css') }}">
-    
-    <link rel="stylesheet"  href="{{ asset('csss/gaia.css') }}"> 
-    <link rel="stylesheet" href="{{ asset('csss/demo.css') }}">
-    <link rel="stylesheet" href="{{ asset('csss/fresh-bootstrap-table.css') }}">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+     <link href="{{ asset('css/material-dashboard.css')}}" rel="stylesheet" />
+    <link rel="stylesheet" href="{{ asset('demo/demo.css') }}">
     
     @yield('estilos_nuevos')
   </head>
-  <body>
-      @include('Panel.Panel_lateral_superior')
+  <body style="background-image: url('https://bets4.pro/template/img/bg.jpg')">
       @include('Panel.Panel_central_inicio')
-  </body>
-  <script type="text/javascript" src="{{asset('js/bootstrap.js')}}"></script>
-  <script type="text/javascript" src="{{asset('js/modernizr.js')}}"></script>
-  <script type="text/javascript" src="{{asset('js/gaia.js')}}"></script>
 
-<script type="text/javascript" src="{{asset('js/jquery-1.11.2.min.js')}}"></script>
-  <script type="text/javascript" src="{{asset('js/jquery-2.2.4.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('js/bootstrap.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('js/jquery.bootstrap.js')}}"></script>
-    <script type="text/javascript" src="{{asset('js/gsdk-bootstrap-wizard.js')}}"></script>
-    <script type="text/javascript" src="{{asset('js/jquery.validate.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('js/bootstrap-table.js')}}"></script>
-    
-    
+  </body>
+  <script type="text/javascript" src="{{asset('js/core/jquery.min.js')}}"></script>
+  <script type="text/javascript" src="{{asset('js/core/popper.min.js')}}"></script>
+  <script type="text/javascript" src="{{asset('js/core/bootstrap-material-design.min.js')}}"></script>
+  <script type="text/javascript" src="{{asset('js/plugins/perfect-scrollbar.jquery.min.js')}}"></script>
+  <script type="text/javascript" src="{{asset('js/plugins/chartist.min.js')}}"></script>
+  <script type="text/javascript" src="{{asset('js/plugins/bootstrap-notify.js')}}"></script>
+  <script type="text/javascript" src="{{asset('js/material-dashboard.min.js')}}"></script>
+  <script type="text/javascript" src="{{asset('demo/demo.js')}}"></script>
+
   @yield('scripts_nuevos')
 </html>

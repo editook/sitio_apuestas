@@ -3,6 +3,7 @@
 plantilla base-inicial
 |
 */
-Route::get('/', function () {
-    return view('Plantilla_inicio.Base');
+Route::get('/edu', function () {
+    return view('Plantilla_inicio.Base', ['dato' => 'no']);
 });
+Route::get('/', 'Inicio\inicio@home');
