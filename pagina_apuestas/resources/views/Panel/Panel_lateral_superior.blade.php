@@ -14,11 +14,8 @@
                 </button>
                 <a href="/">
 	         <div class="logo-container">
-	            <div class="logo">
+	            <div>
                 <img src="{{asset('img/apple-icon.png')}}">
-	            </div>
-	            <div class="brand">
-	                Bets
 	            </div>
 	        </div>
 	    </a>
