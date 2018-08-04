@@ -8,29 +8,16 @@
           <div class="row">
             <div class="col-md-8">
               <div class="card">
+                @include('Plantilla_inicio.contenido-inicio')
                 @yield('contenido-derecho')
-                
                   <!-- contenido que tendra lado izquierdo-->
-                  @if ($dato=="inicio")
-                    <div class="card-header card-header-primary">
-                        <h4 class="card-title">Partidos en linea</h4>
-                        <p class="card-category">En Transmision</p>
-                    </div>
-                
-                    <div class="card-body">
-                    <form>
-                        <button type="submit" class="btn btn-primary pull-right">Update Profile</button>
-                        <div class="clearfix"></div>
-                    </form>
-                    </div>
-                  @endif
-                
               </div>
             </div>
             <div class="col-md-4">
               <div class="card">
+                @include('Plantilla_inicio.contenido-inicio-resultados')
                 @yield('contenido-derecho')
-                
+                <!-- contenido que tendra lado derecho-->
               </div>
             </div>
 
