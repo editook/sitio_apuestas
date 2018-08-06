@@ -6,24 +6,18 @@
                 <div class="card-body">
                   <div class="table-responsive">
                     <table class="table table-hover">
-                      <thead class="">
-                        <th>JUEGO</th>
-                        <th>EQUIPO</th>
-                        <th>EQUIPO</th>
-                        <th>RESULTADOS</th>
-                      </thead>
                       <tbody>
                         @if (!@empty ($query))
                             @foreach ($query as $date)
                             <tr>
-                              <td>{{$date[0]}}</td><td>{{$date[1]}}</td>
-                              <td>{{$date[2]}}</td><td>{{$date[3]}}</td>
+                              <td><a href="#"><span ><img style="border-radius:100%" src="{{ asset("img/new_logo.png") }}" alt="user" width="50" />{{' '.$date[1]}}</a></td>
+                              <td><a href="#"><span ><img style="border-radius:100%" src="{{ asset("img/new_logo.png") }}" alt="user" width="50" />{{' '.$date[2]}}</a></td>
+                              <td>{{$date[3]}}</td>
                             </tr>
                             @endforeach
                         @else
                             <h2>No hay resultados para ver</h2>
                         @endif
-                        
                       </tbody>
                     </table>
                   </div>
