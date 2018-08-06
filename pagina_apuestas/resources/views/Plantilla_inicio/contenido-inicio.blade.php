@@ -9,53 +9,22 @@
                       <thead class="">
                         <th>TIEMPO</th>
                         <th>JUEGO</th>
-                        <th>EQUIPO</th>
-                        <th>VS</th>
-                        <th>EQUIPO</th>
+                        <th>EQUIPO1</th>
+                        <th>EQUIPO2</th>
                       </thead>
                       <tbody>
-                        <tr>
-                          <td>34 min</td>
-                          <td>Dakota Rice</td>
-                          <td>Niger</td>
-                          <td>vs</td>
-                          <td>Oud-Turnhout</td>
-                        </tr>
-                        <tr>
-                          <td>34 min</td>
-                          <td>Dakota Rice</td>
-                          <td>Niger</td>
-                          <td>vs</td>
-                          <td>Oud-Turnhout</td>
-                        </tr>
-                        <tr>
-                          <td>34 min</td>
-                          <td>Dakota Rice</td>
-                          <td>Niger</td>
-                          <td>vs</td>
-                          <td>Oud-Turnhout</td>
-                        </tr>
-                        <tr>
-                          <td>34 min</td>
-                          <td>Dakota Rice</td>
-                          <td>Niger</td>
-                          <td>vs</td>
-                          <td>Oud-Turnhout</td>
-                        </tr>
-                        <tr>
-                          <td>34 min</td>
-                          <td>Dakota Rice</td>
-                          <td>Niger</td>
-                          <td>vs</td>
-                          <td>Oud-Turnhout</td>
-                        </tr>
-                        <tr>
-                          <td>34 min</td>
-                          <td>Dakota Rice</td>
-                          <td>Niger</td>
-                          <td>vs</td>
-                          <td>Oud-Turnhout</td>
-                        </tr>
+                         @if (!@empty ($query1))
+                            @foreach ($query1 as $date1)
+                              <tr>
+                              <td>{{$date1[0]}}</td>
+                              <td>{{$date1[1]}}</td>
+                              <td>{{$date1[2]}}</td>
+                              <td>{{$date1[3]}}</td>
+                              </tr>
+                            @endforeach
+                          @else
+                            <h2>No hay registro de una nueva partida</h2>
+                          @endif
                       </tbody>
                     </table>
                   </div>

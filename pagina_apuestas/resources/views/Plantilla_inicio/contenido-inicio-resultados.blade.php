@@ -9,28 +9,21 @@
                       <thead class="">
                         <th>JUEGO</th>
                         <th>EQUIPO</th>
-                        <th>VS</th>
                         <th>EQUIPO</th>
+                        <th>RESULTADOS</th>
                       </thead>
                       <tbody>
-                        <tr>
-                          <td>Dakota Rice</td>
-                          <td>Niger <P>GANO</P></td>
-                          <td>vs</td>
-                          <td>Oud-Turnhout</td>
-                        </tr>
-                        <tr>
-                          <td>Dakota Rice</td>
-                          <td>Niger <P>GANO</P></td>
-                          <td>vs</td>
-                          <td>Oud-Turnhout</td>
-                        </tr>
-                        <tr>
-                          <td>Dakota Rice</td>
-                          <td>Niger <P>GANO</P></td>
-                          <td>vs</td>
-                          <td>Oud-Turnhout</td>
-                        </tr>
+                        @if (!@empty ($query))
+                            @foreach ($query as $date)
+                            <tr>
+                              <td>{{$date[0]}}</td><td>{{$date[1]}}</td>
+                              <td>{{$date[2]}}</td><td>{{$date[3]}}</td>
+                            </tr>
+                            @endforeach
+                        @else
+                            <h2>No hay resultados para ver</h2>
+                        @endif
+                        
                       </tbody>
                     </table>
                   </div>
