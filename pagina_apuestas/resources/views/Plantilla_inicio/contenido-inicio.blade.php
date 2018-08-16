@@ -11,9 +11,9 @@
               @foreach ($query1 as $date1)
                 <tr>
                 <td></span>{{$date1[0]}}</td>
-                <td><a href="#"><span ><img style="border-radius:100%" src="{{ asset("img/new_logo.png") }}" alt="user" width="50" />{{' '.$date1[2]}}</a></td>
-                <td>VS</td>
-                <td><a href="#"><span ><img style="border-radius:100%" src="{{ asset("img/new_logo.png") }}" alt="user" width="50" />{{' '.$date1[3]}}</a></td>
+                <td><a href="{{url("detalle/{$date1[1]}")}}"><span ><img style="border-radius:100%" src="{{ asset("img/new_logo.png") }}" alt="user" width="50" />{{' '.$date1[2]}}</a></td>
+                <td><a href="#">VS</a></td>
+                <td><a href="{{url("detalle/{$date1[1]}")}}"><span ><img style="border-radius:100%" src="{{ asset("img/new_logo.png") }}" alt="user" width="50" />{{' '.$date1[3]}}</a></td>
                 </tr>
               @endforeach
             @else

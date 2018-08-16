@@ -9,7 +9,7 @@
             <div class="col-md-8">
               <div class="card">
                 @include('Plantilla_inicio.contenido-inicio')
-                @yield('contenido-derecho')
+                @yield('contenido-izquierdo')
                   <!-- contenido que tendra lado izquierdo-->
               </div>
             </div>
