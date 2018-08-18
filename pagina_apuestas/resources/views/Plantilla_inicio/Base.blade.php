@@ -14,9 +14,18 @@
     
     @yield('estilos_nuevos')
   </head>
-  <body style="background-image: url('https://bets4.pro/template/img/bg.jpg')">
+  <body style="background-image: url('{{asset("img/fondo.jpg")}}');background-position: center">
+    <!-- caida de nieve --> 
+    <div id="container">
+      <div id="snow" class="snow">	
+				<div class="copos f1">&#10053;</div> 
+				<div class="copos f2">&#10052;</div> 
+				<div class="copos f3">&#10053;</div> 
+				<div class="copos f4">&#10052;</div> 
+			</div> 
+		<div id="ground"></div> 
+  </div>
       @include('Panel.Panel_central_inicio')
-
   </body>
   <script type="text/javascript" src="{{asset('js/core/jquery.min.js')}}"></script>
   <script type="text/javascript" src="{{asset('js/core/popper.min.js')}}"></script>

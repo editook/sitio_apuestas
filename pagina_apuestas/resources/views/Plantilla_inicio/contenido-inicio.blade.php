@@ -3,7 +3,7 @@
       <h4 class="card-title mt-0"> Partidas en linea</h4>
         <p class="card-category"> se estan transmitiendo los siguientes juegos</p>
     </div>
-    <div class="card-body">
+    <div class="card-body" >
       <div class="table-responsive">
         <table class="table table-hover">
           <tbody>

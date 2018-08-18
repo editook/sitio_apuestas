@@ -1,7 +1,7 @@
  @if ($dato=="inicio")
-    <div class="card-header card-header-primary">
-        <h4 class="card-title mt-0">Resultados</h4>
-          <p class="card-category">recientes</p>
+    <div class="card-header card-header-primary" >
+        <h4 class="card-title mt-0" >Resultados</h4>
+          <p class="card-category" >recientes</p>
     </div>
     <div class="card-body">
       <div class="table-responsive">

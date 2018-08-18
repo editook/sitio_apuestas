@@ -16696,7 +16696,7 @@ label {
     margin-top: 30px;
     border-radius: 6px;
     color: #333333;
-    background: black;
+    background-color: rgba(0, 0, 0, 0.6);
     width: 100%;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
@@ -16849,7 +16849,8 @@ label {
 .card.bg-primary,
 .card.card-rotate.bg-primary .front,
 .card.card-rotate.bg-primary .back {
-    background: linear-gradient(60deg, #ab47bc, #8e24aa);
+    background: linear-gradient(60deg, #1a1919, #1a1919);
+    opacity: 0.9;
 }
 
 .card .card-header-info .card-icon,
@@ -16900,7 +16901,7 @@ label {
 .card .card-header-primary .card-icon,
 .card .card-header-primary:not(.card-header-icon):not(.card-header-text),
 .card .card-header-primary .card-text {
-    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(156, 39, 176, 0.4);
+    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(246, 245, 247, 0.4);
 }
 
 .card .card-header-danger .card-icon,
