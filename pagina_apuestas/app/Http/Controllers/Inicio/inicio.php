@@ -4,10 +4,12 @@ namespace App\Http\Controllers\Inicio;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-
+use Invisnik\LaravelSteamInventory\SteamInventory;
 class inicio extends Controller
 {
     public function home(){
+        //$news  =  Steam :: news ()->GetNewsForApp ( 'FF40CA1F6261FFFA96D3936D0630930F' , 5 , 500 )->newsitems ;
+       
         $consulta2=[['1','Real Madrid', 'Aurora','2 - 1'],
         ['2','Real Madrid', 'Aurora','1 - 1'],
         ['45','Navi', 'team liquid','0 - 1']
